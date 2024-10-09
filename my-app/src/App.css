@@ -1,0 +1,97 @@
+.App{
+    text-align: center;
+}
+.teachers{
+    display: flex;
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    height: 70px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    background-color: blue;
+
+}
+.teacher-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.change-teacher{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.9s all;
+    font-size: 18px;
+    font-weight: 500;
+}
+.change-teacher:hover{
+    background-color: aqua;
+    color: white;
+    border-radius: 15px;
+}
+.student-cards{
+    width: 1000px;
+    margin: 10px auto;
+    background-color: blue;
+    padding-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.add-student{
+    width: 800px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+.controll-content{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.9s all;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.controll-content:hover{
+    background-color: aqua;
+    color: white;
+    border-radius: 15px;
+}
+.students{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.students:hover{
+    background-color: green;
+}
+.studant-name{
+    font-size: 26px;
+    font-weight: 700;
+}
+.remove-st{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.warning{
+    color: red;
+}
